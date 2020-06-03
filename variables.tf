@@ -3,6 +3,8 @@ variable "res_name" {
     default = "az_ip_rg"
 
 }
+
 variable "virtual_net" {
     type = string
     default = "az_ip_vn"
+}
